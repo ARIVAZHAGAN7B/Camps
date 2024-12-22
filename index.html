@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <link rel="icon" href="images/" type="image/x-icon">
+    <title>Student Dashboard</title>
+</head>
+<body>
+    <div class="heading">
+        <h1>Welcome to the Camps Portal</h1>
+    </div>
+    <div class="head2">
+        <h4>User : <i>itachi@bitsathy.ac.in</i></h4>
+        <h3 class="date-time" id="dateTime"></h3>
+    </div>
+    <div class="container">
+        <div class="firstcontainer" onclick="change(this)">
+            <div class="title-section">
+                <h1>Students</h1>
+                <div class="add-button">
+                    <h1>+</h1>
+                </div>
+            </div>
+            <ul>
+                <li>
+                    <div class="firstcontainer">
+                        <div class="title-section">
+                            <h1>Profile</h1>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="firstcontainer">
+                        <div class="title-section">
+                            <h1>Leave Apply</h1>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="firstcontainer">
+                        <div class="title-section">
+                            <h1>Scholorship</h1>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="firstcontainer">
+                        <div class="title-section">
+                            <h1>Fees</h1>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="firstcontainer">
+                        <div class="title-section">
+                            <h1>Skill Development</h1>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="firstcontainer" onclick="change(this)">
+            <div class="title-section">
+                <h1>Transport</h1>
+                <div class="add-button">
+                    <h1>+</h1>
+                </div>
+            </div>
+            <ul style="display: none;">
+                <li>
+                    <div class="firstcontainer">
+                        <div class="title-section">
+                            <h1>Bus Request form</h1>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        
+        <div class="firstcontainer" onclick="change(this)">
+            <div class="title-section">
+                <h1>Curriculam</h1>
+                <div class="add-button">
+                    <h1>+</h1>
+                </div>
+            </div>
+            <ul  style="display: none;">
+                <li>
+                    <div class="firstcontainer">
+                        <div class="title-section">
+                            <h1>Curriculam Report</h1>
+
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="firstcontainer">
+                        <div class="title-section">
+                            <h1>Syllabus Report</h1>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="firstcontainer" onclick="change(this)">
+            <div class="title-section">
+                <h1>Acedamics</h1>
+                <div class="add-button">
+                    <h1>+</h1>
+                </div>
+            </div>
+            <ul  style="display: none;">
+                <li>
+                    <div class="firstcontainer">
+                        <div class="title-section">
+                            <h1>Course Registration</h1>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="firstcontainer">
+                        <div class="title-section">
+                            <h1>Lesson Plan</h1>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="firstcontainer">
+                        <div class="title-section">
+                            <h1>Question Bank</h1>
+
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="firstcontainer">
+                        <div class="title-section">
+                            <h1>Reports</h1>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="firstcontainer">
+                        <div class="title-section">
+                            <h1>Survey / Feedback</h1>
+
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="firstcontainer">
+                        <div class="title-section">
+                            <h1>Test / Assignments / Tutorials</h1>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="firstcontainer">
+                        <div class="title-section">
+                            <h1>Submit viedo</h1>
+
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="firstcontainer">
+                        <div class="title-section">
+                            <h1>Indirect CO / PO</h1>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="firstcontainer" onclick="change(this)">
+            <div class="title-section">
+                <h1>Activity</h1>
+                <div class="add-button">
+                    <h1>+</h1>
+                </div>
+            </div>
+            <ul  style="display: none;">
+                <li>
+                    <div class="firstcontainer">
+                        <div class="title-section">
+                            <h1>Activity Submission</h1>
+                        </div>
+                    </div>
+                </li>
+                </ul>
+        </div>
+        <div class="firstcontainer"  onclick="change(this)">
+            <div class="title-section">
+                <h1>Exams</h1>
+                <div class="add-button">
+                    <h1>+</h1>
+                </div>
+            </div>
+            <ul  style="display: none;">
+                <li>
+                    <div class="firstcontainer">
+                        <div class="title-section">
+                            <h1>Hall Ticket</h1>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="firstcontainer">
+                        <div class="title-section">
+                            <h1>Result</h1>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="firstcontainer" onclick="change(this)">
+            <div class="title-section">
+                <h1>Documentations</h1>
+                <div class="add-button">
+                    <h1>+</h1>
+                </div>
+            </div>
+            <ul  style="display: none;">
+                <li>
+                    <div class="firstcontainer">
+                        <div class="title-section">
+                            <h1>Submit / View</h1>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="firstcontainer">
+                        <div class="title-section">
+                            <h1>Cdocs</h1>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="firstcontainer">
+                        <div class="title-section">
+                            <h1>Events</h1>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="firstcontainer" onclick="change(this)">
+            <div class="title-section">
+                <h1>Library</h1>
+                <div class="add-button">
+                    <h1>+</h1>
+                </div>
+            </div>
+        </div>
+        <div class="firstcontainer" onclick="change(this)">
+            <div class="title-section">
+                <h1>Event Details</h1>
+                <div class="add-button">
+                    <h1>+</h1>
+                </div>
+            </div>
+            <ul  style="display: none;">
+                <li>
+                    <div class="firstcontainer">
+                        <div class="title-section">
+                            <h1>Transaction</h1>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="firstcontainer">
+                        <div class="title-section">
+                            <h1>Search</h1>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="firstcontainer" onclick="change(this)">
+            <div class="title-section">
+                <h1>Skills</h1>
+                <div class="add-button">
+                    <h1>+</h1>
+                </div>
+            </div>
+            <ul  style="display: none;">
+                <li>
+                    <div class="firstcontainer">
+                        <div class="title-section">
+                            <h1>Source Book</h1>
+                        </div>
+                    </div> 
+                </li>
+            </ul>
+        </div>
+        <div class="firstcontainer" onclick="change(this)">
+            <div class="title-section">
+                <h1>Daily News</h1>
+                <div class="add-button">
+                    <h1>+</h1>
+                </div>
+            </div>
+        </div>
+        <div class="firstcontainer">
+            <div class="title-section">
+                <h1>Login Details</h1>
+                <div class="add-button">
+                    <h1>+</h1>
+                </div>
+            </div>
+        </div>
+        <div class="firstcontainer" onclick="change(this)">
+            <div class="title-section">
+                <h1>Cloud Machine Instructions</h1>
+                <div class="add-button">
+                    <h1>+</h1>
+                </div>
+            </div>
+        </div>
+        <div class="firstcontainer" onclick="change(this)">
+            <div class="title-section">
+                <h1>Logout</h1>
+                <div class="add-button">
+                    <h1><img src="images/png-transparent-computer-icons-login-logout-angle-text-black-thumbnail.png" style="width: 60px; height: 60px; margin-top: 3px;"></h1>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
