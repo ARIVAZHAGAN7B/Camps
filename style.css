@@ -95,7 +95,7 @@ ul {
     width: 600px;
 }
 ul li::marker{
-    font-size : 50px;
+    font-size : 30px;
 }
 @media (max-width: 1024px) {
     .heading {
